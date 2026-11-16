@@ -1,0 +1,10702 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f0c9839d-12cf-499f-b4bc-14bb3c4e11dd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 157.48 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06792d9e-c06d-49b7-beb8-a543f7637425")
+	)
+	(junction
+		(at 58.42 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a7af901-5b15-4813-a9b8-3123dc402fac")
+	)
+	(junction
+		(at 50.8 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b90202b-d934-4620-ab40-6e742e0a133c")
+	)
+	(junction
+		(at 180.34 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f07b94a-f936-454c-af0d-f7c62bad13ed")
+	)
+	(junction
+		(at 96.52 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f400c2a-b8c9-4b31-a84d-203c2608ea17")
+	)
+	(junction
+		(at 128.27 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "154e5d71-e087-4e78-8209-86c2a9f7c295")
+	)
+	(junction
+		(at 149.86 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17b64edf-df4f-450a-b270-c672e489b4cb")
+	)
+	(junction
+		(at 88.9 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17ebc1dc-dad0-4684-9fce-4fc796e23bf5")
+	)
+	(junction
+		(at 73.66 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a6884a7-de2e-4cdb-9c1b-7c7319a913e0")
+	)
+	(junction
+		(at 248.92 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ae4fc17-9e07-456b-8aa5-81092de612ad")
+	)
+	(junction
+		(at 165.1 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba4c60a-99c9-47ee-acbf-ea9e87dfa2c5")
+	)
+	(junction
+		(at 134.62 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bc6d229-cb6b-4d07-b6b8-8e3f77ca1611")
+	)
+	(junction
+		(at 134.62 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f66d75c-7b88-41aa-982e-dbcb985624e9")
+	)
+	(junction
+		(at 226.06 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20be0847-e3db-491e-b5a6-0d65d9790f55")
+	)
+	(junction
+		(at 50.8 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20e02561-ae58-4255-bacf-7c7d8b5cc367")
+	)
+	(junction
+		(at 233.68 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22e4477f-059b-43dd-8c17-133128f61067")
+	)
+	(junction
+		(at 233.68 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "244458cf-742d-47a8-99ac-96f9f293f73e")
+	)
+	(junction
+		(at 142.24 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "281f4bb6-3943-4bea-b080-5a0de93551a1")
+	)
+	(junction
+		(at 233.68 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296c7fb1-fc4f-4f17-8d69-529715809792")
+	)
+	(junction
+		(at 142.24 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34306653-963d-45ba-b8c3-b70dced5b973")
+	)
+	(junction
+		(at 58.42 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "346d7b2e-da8b-4716-967f-aba197c553da")
+	)
+	(junction
+		(at 111.76 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "355b89ba-ec09-465a-aa90-f1ec3461fa94")
+	)
+	(junction
+		(at 73.66 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3683a449-98fb-48ef-be8e-bcd19b7dd178")
+	)
+	(junction
+		(at 172.72 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a598782-42dd-4016-98c6-f45c071b5a42")
+	)
+	(junction
+		(at 81.28 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ea04594-f45f-4beb-842a-4a56d1394d29")
+	)
+	(junction
+		(at 88.9 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fd7a237-0159-4fc9-8cdb-469cbeea31d8")
+	)
+	(junction
+		(at 241.3 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40025277-39c9-4c88-945d-08b594525f86")
+	)
+	(junction
+		(at 180.34 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "407e8f91-20d6-42c1-9299-77503e59eb82")
+	)
+	(junction
+		(at 43.18 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "421e669b-8e30-4e48-8257-6e4ff22469b9")
+	)
+	(junction
+		(at 180.34 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42344aeb-dc2f-4393-9a43-d9e0410c256a")
+	)
+	(junction
+		(at 234.95 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4411c9c1-858e-4d7b-b90a-5170e8875c8a")
+	)
+	(junction
+		(at 218.44 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4426c029-024b-4b6f-a9bc-fb4b8b97b381")
+	)
+	(junction
+		(at 165.1 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44b1a86e-fef9-4317-aafa-a48cc3d17544")
+	)
+	(junction
+		(at 43.18 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4605adc3-864c-4888-b68e-9ea0c507164a")
+	)
+	(junction
+		(at 88.9 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46ccf67b-09e8-4bf8-99da-3b4818bdc847")
+	)
+	(junction
+		(at 50.8 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4787336b-7543-4167-ba25-a52067db8169")
+	)
+	(junction
+		(at 248.92 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "488bcb7f-4db2-4ff8-8c6d-c6fb332a7176")
+	)
+	(junction
+		(at 96.52 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49085928-e3a1-4b53-89eb-9cca7f591dcd")
+	)
+	(junction
+		(at 187.96 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b70ea2a-57ac-4028-b8da-ea8801d645c5")
+	)
+	(junction
+		(at 157.48 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cb82329-31e7-4566-b88b-62aac60852bf")
+	)
+	(junction
+		(at 157.48 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50602997-5711-4dee-a32f-58fdaecd9f0e")
+	)
+	(junction
+		(at 180.34 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55bbfd05-3b4f-4379-9638-df61872b341e")
+	)
+	(junction
+		(at 27.94 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573c816b-93b1-4054-81ea-439181b5e60d")
+	)
+	(junction
+		(at 58.42 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "574ca0ea-967f-4454-97aa-d5cf9833acfe")
+	)
+	(junction
+		(at 58.42 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "588d1d01-ff62-4f6e-8457-4316ded29e5d")
+	)
+	(junction
+		(at 27.94 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59bfa70d-75eb-4205-bb10-fccc7ed33389")
+	)
+	(junction
+		(at 195.58 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b57efbc-a8eb-4b85-9e16-04e801ec9160")
+	)
+	(junction
+		(at 66.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cb51165-e06e-494f-a995-c64215f822f8")
+	)
+	(junction
+		(at 88.9 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df684db-f612-4c67-825e-ef759db6a06a")
+	)
+	(junction
+		(at 127 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60369783-41cf-4c11-83c2-74742c0a0966")
+	)
+	(junction
+		(at 210.82 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63dd96a7-5649-4005-a1d6-0849fa7946d3")
+	)
+	(junction
+		(at 142.24 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "661cf576-2fce-4831-a91e-5583b3c2d8ce")
+	)
+	(junction
+		(at 172.72 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "687957b2-c340-474c-8c79-063b6e875fb8")
+	)
+	(junction
+		(at 219.71 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bdb6e4b-3ab8-4f6a-b776-b5b35fc6fb1f")
+	)
+	(junction
+		(at 73.66 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c1fd814-ada5-43ce-a722-3adc8dfbf9e5")
+	)
+	(junction
+		(at 203.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cb61005-b141-4f39-b130-51c5491e999d")
+	)
+	(junction
+		(at 81.28 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7033135f-a9ba-4881-b718-5a010e9c761b")
+	)
+	(junction
+		(at 104.14 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71fd4763-1828-428b-ad1f-cd4146870450")
+	)
+	(junction
+		(at 226.06 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72d24453-d959-4708-b735-cc07e3081684")
+	)
+	(junction
+		(at 172.72 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77729065-90db-4f53-8e0e-9069ce0475e6")
+	)
+	(junction
+		(at 195.58 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a103e4b-6dab-4d26-add8-7ed9aa75ba87")
+	)
+	(junction
+		(at 241.3 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a732db3-9c58-4716-af59-caf6ad682a26")
+	)
+	(junction
+		(at 271.78 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a825df4-b1d3-4365-a09a-1a65fbb900b7")
+	)
+	(junction
+		(at 104.14 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ebf3163-d7a9-47ca-a208-71fb486a47ba")
+	)
+	(junction
+		(at 81.28 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ee60101-3ba5-4702-bbec-f7095211ec8f")
+	)
+	(junction
+		(at 27.94 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "803ff1e2-6e7c-4b73-bdcc-b1ff4dd47795")
+	)
+	(junction
+		(at 119.38 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "804b2e32-2255-4f1d-a079-991b0a049da8")
+	)
+	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86e637a6-c6a4-4d36-9f65-dfaaf3c6f45b")
+	)
+	(junction
+		(at 119.38 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f06ff0-a2d9-468d-a0d0-e66e78d99085")
+	)
+	(junction
+		(at 27.94 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "891f7fca-b1e2-42fa-9957-cc31f8f6a452")
+	)
+	(junction
+		(at 218.44 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "898a102f-e3ba-4b1e-9ca3-54b58008d919")
+	)
+	(junction
+		(at 203.2 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ae0af81-d201-4508-83ed-062ac060be01")
+	)
+	(junction
+		(at 248.92 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ca48395-6689-4a6a-97df-75873a745fec")
+	)
+	(junction
+		(at 203.2 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e4f230b-390c-4b1a-857a-dcbfd3cd3266")
+	)
+	(junction
+		(at 233.68 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f15c21f-cde0-4b22-8837-38e17f5c44c1")
+	)
+	(junction
+		(at 187.96 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91817fde-6091-436e-b7ea-37d492c3fee5")
+	)
+	(junction
+		(at 111.76 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "966b5076-d2d4-43da-8edf-6da415c24efe")
+	)
+	(junction
+		(at 165.1 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9923131c-f19a-4107-87dd-8c72694d6ef5")
+	)
+	(junction
+		(at 187.96 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9928abff-caf5-417c-8b60-19aa1caa2c84")
+	)
+	(junction
+		(at 142.24 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f1b7f3-1ca3-47d2-8ada-ca88e330d058")
+	)
+	(junction
+		(at 248.92 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a570cd6-af3c-4fba-a039-10b07b981f12")
+	)
+	(junction
+		(at 134.62 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a6929ea-b55c-4efd-9579-f25a55135ea8")
+	)
+	(junction
+		(at 241.3 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bd77d5e-70eb-420c-baef-928725650585")
+	)
+	(junction
+		(at 134.62 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c72f2d7-e87e-44e0-9807-4a69c945cc6a")
+	)
+	(junction
+		(at 119.38 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49cc9d7-c00e-47df-a0e6-a7c0cc710abd")
+	)
+	(junction
+		(at 127 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9bc9745-cd35-4d16-b86f-c642939fa5d9")
+	)
+	(junction
+		(at 172.72 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa95f370-bb59-420d-b9db-7770f95ffeff")
+	)
+	(junction
+		(at 111.76 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab3f7e4-0418-4677-8695-b10d4a2c7320")
+	)
+	(junction
+		(at 73.66 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac1183d8-1bab-46ac-bb5c-5a8a4ad084c1")
+	)
+	(junction
+		(at 111.76 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add09ca5-6428-433c-8660-04d96fa71454")
+	)
+	(junction
+		(at 218.44 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae3ab754-6a3c-4d1a-9dba-8fd344529848")
+	)
+	(junction
+		(at 241.3 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aea660ac-248a-4ae0-89c5-e9ca0c0b3a49")
+	)
+	(junction
+		(at 96.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aeca992d-f562-4edf-abb7-ec125a3d5d44")
+	)
+	(junction
+		(at 195.58 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af5b03be-002d-4709-8297-7e8d28b79169")
+	)
+	(junction
+		(at 157.48 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b011324f-9ce5-43a0-8ab9-30e9c0b32976")
+	)
+	(junction
+		(at 218.44 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b025ddb5-b469-4d3c-81a9-db14a126679e")
+	)
+	(junction
+		(at 165.1 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a68929-2605-4c51-be44-cc14cb1d1c31")
+	)
+	(junction
+		(at 43.18 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b32b5464-4465-4f45-8422-2f2d810cc4ad")
+	)
+	(junction
+		(at 226.06 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7914848-368d-4d17-88aa-2d14e71edada")
+	)
+	(junction
+		(at 273.05 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbfc85f0-cd41-4732-9395-5171009d8c95")
+	)
+	(junction
+		(at 119.38 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd088bd6-81b3-4274-9ba1-dacb927192c4")
+	)
+	(junction
+		(at 269.24 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be69d7f6-1ade-40db-ba1e-6f7b003b530c")
+	)
+	(junction
+		(at 66.04 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed2f86e-41c6-417f-a04e-9b8774c7264a")
+	)
+	(junction
+		(at 226.06 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c125ea78-bb3d-462e-a224-163fa8650ad0")
+	)
+	(junction
+		(at 43.18 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f3cd49-680a-448b-b8cf-adf077108ca6")
+	)
+	(junction
+		(at 149.86 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8dd2998-e07a-4124-8d64-9ed6ad67e7d7")
+	)
+	(junction
+		(at 66.04 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c940d79b-0480-457b-bc7a-4c497b7787d0")
+	)
+	(junction
+		(at 104.14 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c98a0576-9559-46ab-8188-6216b3a55cfe")
+	)
+	(junction
+		(at 248.92 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbfcccd0-6376-427b-b8b7-0d15be3876eb")
+	)
+	(junction
+		(at 81.28 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd6777df-1cb6-4314-8047-c747aa427c22")
+	)
+	(junction
+		(at 187.96 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce295989-cfcf-4adb-ac31-41685289804f")
+	)
+	(junction
+		(at 142.24 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d190d304-30ae-4926-adda-b693a8ac918c")
+	)
+	(junction
+		(at 81.28 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2ee734e-aae2-4330-9838-87f56c4e33d8")
+	)
+	(junction
+		(at 127 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9f8c62a-a56f-447c-bab7-4bd0f96c835e")
+	)
+	(junction
+		(at 96.52 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df380197-f8c4-4a7f-a86a-ed67ceb04584")
+	)
+	(junction
+		(at 104.14 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ca1b61-4f2e-43b5-b296-c0b3014a6aba")
+	)
+	(junction
+		(at 195.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2b2bc28-72d9-4156-81d4-f009fc0898ac")
+	)
+	(junction
+		(at 210.82 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e60f3010-e03c-412a-919e-725b766bf423")
+	)
+	(junction
+		(at 203.2 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e74d4486-f871-4700-b173-4cdcb6d89dae")
+	)
+	(junction
+		(at 187.96 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9533ea9-5348-4c5d-bc1f-ca67829aa458")
+	)
+	(junction
+		(at 172.72 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eac73f75-7d5c-4560-84ab-931611dc46db")
+	)
+	(junction
+		(at 111.76 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f093094b-cc1f-46c8-940a-c01f4c51e501")
+	)
+	(junction
+		(at 270.51 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f26fc9c0-89a3-41eb-a473-d5a374f0b0bc")
+	)
+	(junction
+		(at 66.04 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2728e57-63f4-41bb-b153-13dc24d4e60e")
+	)
+	(junction
+		(at 96.52 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2afd11d-3d14-4a5e-b816-852e35f3c8ef")
+	)
+	(junction
+		(at 157.48 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f363daf1-3a02-4a2b-b3da-36c1c3bc6f82")
+	)
+	(junction
+		(at 274.32 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3b2a4c6-5ab7-43ff-b350-b72412d413eb")
+	)
+	(junction
+		(at 210.82 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f525bb51-5992-41cb-846e-ddd719d9994e")
+	)
+	(junction
+		(at 127 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f542ed0d-b6b0-47ce-b54b-df9b8b8118f8")
+	)
+	(junction
+		(at 50.8 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f74d697d-da4c-4e90-ab32-46096d77088c")
+	)
+	(junction
+		(at 149.86 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f853ab3a-ebbc-4a1f-9046-c99e1babaee8")
+	)
+	(junction
+		(at 149.86 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8fc4109-9b08-466a-85b7-a79e9083e20d")
+	)
+	(junction
+		(at 203.2 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f8d15f-1edf-4124-93ef-51c312b34da4")
+	)
+	(junction
+		(at 50.8 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa1e6766-aded-436b-b11b-f61760c12466")
+	)
+	(junction
+		(at 210.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feee5cc3-2ea2-456e-8267-c85fd104951c")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 180.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f0e2bf-07ef-454c-b14c-b9d8eb7aba40")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013439c1-7cba-4819-bf65-cc96772a9d0a")
+	)
+	(wire
+		(pts
+			(xy 233.68 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019daed4-f8cd-4eaf-a60d-01e166e7622f")
+	)
+	(wire
+		(pts
+			(xy 165.1 100.33) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a10a19-226b-4712-9e46-987ad2ec173a")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049ddae3-509f-438f-810e-9ce86e977c7c")
+	)
+	(wire
+		(pts
+			(xy 172.72 123.19) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f05dc1-edfc-429a-a731-99351460ea0a")
+	)
+	(wire
+		(pts
+			(xy 271.78 71.12) (xy 271.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "061463bd-d66b-4699-99cb-0565f58d2340")
+	)
+	(wire
+		(pts
+			(xy 134.62 123.19) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0637f819-f257-4d10-81ec-f74b66b16451")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 73.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078e9263-6ca9-40e4-8e40-cbd0f0f2a89a")
+	)
+	(wire
+		(pts
+			(xy 96.52 142.24) (xy 111.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cd2066-b27b-438d-a388-c9777c9cc22e")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 157.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08565fd9-d851-4bbf-8da4-5a5aabbde3f3")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 203.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "086897bb-08a7-4c62-a390-9b15fcc83da2")
+	)
+	(wire
+		(pts
+			(xy 81.28 134.62) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097ef0d0-10e2-4790-930c-7bd5e63a8a37")
+	)
+	(wire
+		(pts
+			(xy 142.24 68.58) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098ae037-7595-49c7-aafd-5a4bb3673133")
+	)
+	(wire
+		(pts
+			(xy 127 134.62) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a39a0df-d121-4a5f-b829-065d32a31ab2")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a55d86d-18b5-4b82-8f6d-5f905ec244a5")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 88.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad129d9-b712-4ec3-99d9-23308c18047a")
+	)
+	(wire
+		(pts
+			(xy 128.27 153.67) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b03c121-1650-4bb3-bf8b-31b7c7d32018")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b687100-b5db-4bc9-ac5b-842e5ea0c3b6")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c502694-78d6-4762-906b-9dc38db946b9")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c76f7fd-e320-4af5-bb67-376ddc87e54e")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 58.42 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6ecc42-ba94-4bba-b471-fbbd97176358")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fda1f3f-80c1-4250-b1f7-63ef22f40859")
+	)
+	(wire
+		(pts
+			(xy 134.62 134.62) (xy 134.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109c8785-7e17-4356-834a-d176b7170dd8")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10efd478-d617-4b65-ab77-08783881d850")
+	)
+	(wire
+		(pts
+			(xy 137.16 64.77) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113c9e6b-0dd6-41d6-8e4b-d0a30783e938")
+	)
+	(wire
+		(pts
+			(xy 27.94 67.31) (xy 27.94 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a4c7c4-749c-40d9-ad28-99740b9eee33")
+	)
+	(wire
+		(pts
+			(xy 274.32 153.67) (xy 274.32 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15192da1-ffd2-476b-bf89-04e7c4dd8926")
+	)
+	(wire
+		(pts
+			(xy 172.72 153.67) (xy 187.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1657d484-664a-48e2-898b-8e83a9269cb7")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165fc31e-b00e-4d26-9345-70ced14baa91")
+	)
+	(wire
+		(pts
+			(xy 157.48 130.81) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168a0206-70ed-44fb-8eaf-20836de1a9dc")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a45221-a908-46de-b499-3a0f601f6a07")
+	)
+	(wire
+		(pts
+			(xy 142.24 153.67) (xy 157.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175d8719-f355-4b54-a88f-0ccb12c6d4e1")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.33) (xy 81.28 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1976a67e-a8ef-4d6f-9e4a-981ec37b4a1a")
+	)
+	(wire
+		(pts
+			(xy 210.82 111.76) (xy 210.82 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac151d5-58ff-4e3f-a018-6f56fbf10741")
+	)
+	(wire
+		(pts
+			(xy 248.92 107.95) (xy 269.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddcbaaf-a295-4a02-9ee7-3ca751036330")
+	)
+	(wire
+		(pts
+			(xy 219.71 153.67) (xy 234.95 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e482cda-4e56-4d52-a8c5-af8ba40a0075")
+	)
+	(wire
+		(pts
+			(xy 219.71 146.05) (xy 218.44 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa14eb4-f11a-4035-8a54-2cfcb68a6618")
+	)
+	(wire
+		(pts
+			(xy 233.68 107.95) (xy 248.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20383fe1-dab0-4bf3-a2ad-4bcdd9b71006")
+	)
+	(wire
+		(pts
+			(xy 203.2 146.05) (xy 203.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219ffe44-c921-4dd6-b5a1-b3f91c1ddebe")
+	)
+	(wire
+		(pts
+			(xy 81.28 123.19) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d17422-0b20-40b5-921a-d63e5b44ffcd")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2474bd1b-a27f-40f3-9d9a-12ac1c7f1b4a")
+	)
+	(wire
+		(pts
+			(xy 111.76 100.33) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cccf2b-5b9a-49e0-8c2b-9e4b34e4450e")
+	)
+	(wire
+		(pts
+			(xy 50.8 123.19) (xy 50.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d9bc9a-f5e0-45e1-91bb-bdefee30249d")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24efe86c-bfbc-464b-8023-a20754cddf30")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27eab86b-279f-4e49-aff3-f5250a90bb3a")
+	)
+	(wire
+		(pts
+			(xy 271.78 132.08) (xy 271.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286d6b2e-d2b8-4c03-b678-9fa31c42a908")
+	)
+	(wire
+		(pts
+			(xy 270.51 120.65) (xy 270.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294d87ed-fb66-4f74-aebd-94a111d279c0")
+	)
+	(wire
+		(pts
+			(xy 66.04 123.19) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a93fc85-4d53-4421-86b7-aba203edb0f6")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb3d565-4ac8-4f10-bd5d-8a4a24a429d7")
+	)
+	(wire
+		(pts
+			(xy 210.82 123.19) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0c2fe3-8ae2-42e3-904e-8ecf243c29a9")
+	)
+	(wire
+		(pts
+			(xy 35.56 111.76) (xy 35.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e387d4f-fbfc-44e4-8572-e65593d7339f")
+	)
+	(wire
+		(pts
+			(xy 271.78 46.99) (xy 271.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e46f0f8-6620-441e-a8f1-a52765940b86")
+	)
+	(wire
+		(pts
+			(xy 96.52 107.95) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e639c7c-539d-4f48-b2b0-e3fd7000211c")
+	)
+	(wire
+		(pts
+			(xy 248.92 130.81) (xy 271.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebffdf5-df74-4df7-bf97-99c101a6112e")
+	)
+	(wire
+		(pts
+			(xy 27.94 134.62) (xy 27.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efa7ef5-8147-4aa8-83e8-ccf36f4762fc")
+	)
+	(wire
+		(pts
+			(xy 88.9 123.19) (xy 88.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f826ec2-3b17-4518-afab-c8c8bf8f3c23")
+	)
+	(wire
+		(pts
+			(xy 27.94 123.19) (xy 27.94 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3217537f-ba54-40f3-8626-066586510637")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32952262-84f1-44f1-9ca3-f65877afe09a")
+	)
+	(wire
+		(pts
+			(xy 149.86 134.62) (xy 149.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330645a9-2389-4afc-8baa-6ef690daf43c")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 111.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b1fb18-7b9b-4c5d-a610-8c4f937eefad")
+	)
+	(wire
+		(pts
+			(xy 226.06 100.33) (xy 226.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33cb6e5f-2de3-46f4-9601-3a818ad4da4e")
+	)
+	(wire
+		(pts
+			(xy 269.24 107.95) (xy 269.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33de461c-c105-4042-9b27-620e01a8d727")
+	)
+	(wire
+		(pts
+			(xy 144.78 54.61) (xy 156.21 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36108ce6-4925-422e-a04f-65c7b977449b")
+	)
+	(wire
+		(pts
+			(xy 248.92 153.67) (xy 274.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366e458c-b505-481c-a576-383446f7ff53")
+	)
+	(wire
+		(pts
+			(xy 157.48 123.19) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccccaf6-d87c-44d7-b9b7-05b0d0bb7554")
+	)
+	(wire
+		(pts
+			(xy 157.48 153.67) (xy 172.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d094d27-ed7a-48ec-8bd7-808e050e8ca7")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 119.38 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e25d0a7-1656-43cb-99eb-cc0b22792d62")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 104.14 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f18567-396a-46f6-badc-ab590cb7e4f8")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4157962d-1e1a-461d-a217-f7272fbf012d")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419f39df-256b-4dd3-bfc7-20a5116697d6")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4621aa2c-0c58-4125-a5af-b9b6976d7c12")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 233.68 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4632843a-4ba0-4670-a50f-dc92a29c4ab3")
+	)
+	(wire
+		(pts
+			(xy 248.92 134.62) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e959c4-cc3a-4330-9b87-dcd1202c2795")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49201556-014a-43ac-8a98-9bcb648d2cac")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 143.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b045e5-1ba7-4c67-9166-f1399b1e7664")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 203.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c1dcf1-9782-4b8f-a64f-cc9bd7e79375")
+	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 149.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c4afc9-cf58-4858-9cc7-3859872f216a")
+	)
+	(wire
+		(pts
+			(xy 210.82 134.62) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3f9b05-ca73-4ea9-9428-5acaaebc546e")
+	)
+	(wire
+		(pts
+			(xy 142.24 146.05) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d01b976-a8d1-45dd-baa5-cde31522836d")
+	)
+	(wire
+		(pts
+			(xy 128.27 146.05) (xy 128.27 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d2a6b7f-dbf6-4492-9cdb-cdb7afddcc05")
+	)
+	(wire
+		(pts
+			(xy 233.68 119.38) (xy 248.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e36b644-502d-47f7-897c-afbe4bf6ffe3")
+	)
+	(wire
+		(pts
+			(xy 144.78 57.15) (xy 156.21 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514016a6-09eb-4eb0-a3dd-c3122f3f58d2")
+	)
+	(wire
+		(pts
+			(xy 203.2 134.62) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523db3e3-b7b7-4990-a33a-436f3c09860b")
+	)
+	(wire
+		(pts
+			(xy 165.1 134.62) (xy 165.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525bdbf7-6d60-4417-bdb6-3e71584268eb")
+	)
+	(wire
+		(pts
+			(xy 157.48 111.76) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b0dcfc-2132-4f5d-9712-ff669953a135")
+	)
+	(wire
+		(pts
+			(xy 58.42 123.19) (xy 58.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5414b61e-ef14-42d1-9f03-680af5fd35e0")
+	)
+	(wire
+		(pts
+			(xy 50.8 153.67) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541964ca-58bb-4e7f-b5f9-55fb2d1c4d2f")
+	)
+	(wire
+		(pts
+			(xy 128.27 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567f1051-5645-490d-b42c-c5bc03a33650")
+	)
+	(wire
+		(pts
+			(xy 218.44 100.33) (xy 218.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f75335-b989-4ede-a927-4be3c95d12e4")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 203.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ff6608-39fa-44d9-8e1b-b6b06ca4dfc9")
+	)
+	(wire
+		(pts
+			(xy 50.8 142.24) (xy 66.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a65ad17-ee80-429a-93c4-d7e3a895174a")
+	)
+	(wire
+		(pts
+			(xy 66.04 107.95) (xy 81.28 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a761649-f74d-46b6-b641-5bd2ca3c9f27")
+	)
+	(wire
+		(pts
+			(xy 165.1 123.19) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8f574d-f0b3-4e06-bea8-e0bffa93b4a9")
+	)
+	(wire
+		(pts
+			(xy 172.72 111.76) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bcc2386-d5ef-448e-9a76-16e5ca70d58f")
+	)
+	(wire
+		(pts
+			(xy 111.76 142.24) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d68de1d-79f4-4268-b21e-b9a3755812e4")
+	)
+	(wire
+		(pts
+			(xy 142.24 107.95) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e37dbd0-e612-432d-b7ce-e516ed6da426")
+	)
+	(wire
+		(pts
+			(xy 123.19 64.77) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f88cbe4-0f8a-4f69-b887-0ea90e0427cc")
+	)
+	(wire
+		(pts
+			(xy 187.96 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6189258e-e1e6-4aea-9d83-75620f350323")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ff9630-ff67-4062-b4c9-5a7c02352c71")
+	)
+	(wire
+		(pts
+			(xy 96.52 146.05) (xy 96.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6289ae82-dd52-4a52-84bd-952f10ad0f29")
+	)
+	(wire
+		(pts
+			(xy 187.96 123.19) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d23e02-0de3-49ce-b46e-fc2ac3363b3a")
+	)
+	(wire
+		(pts
+			(xy 127 142.24) (xy 142.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63818539-b96a-498f-9590-e77ed4e99137")
+	)
+	(wire
+		(pts
+			(xy 187.96 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64101a30-134c-4e89-9fb7-b72369c04cbc")
+	)
+	(wire
+		(pts
+			(xy 149.86 74.93) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e7829b-a57a-4cfb-a8c9-d4da9d02d625")
+	)
+	(wire
+		(pts
+			(xy 241.3 134.62) (xy 241.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b737b5-0da7-4690-b1af-af403b98ad7e")
+	)
+	(wire
+		(pts
+			(xy 218.44 111.76) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c8958e-4917-4a35-9e98-69eb9d093895")
+	)
+	(wire
+		(pts
+			(xy 96.52 130.81) (xy 111.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b41593-d21e-4639-9984-cec6509da3c5")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 58.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa2828d-f54f-45b7-9a06-25345dac9535")
+	)
+	(wire
+		(pts
+			(xy 58.42 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b500238-9ada-408a-9aec-47da6b450815")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6babac9a-4ef5-4a88-a3b8-495fe7742b2a")
+	)
+	(wire
+		(pts
+			(xy 43.18 111.76) (xy 43.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2c8df6-8bbf-409f-975d-d473b5149d4a")
+	)
+	(wire
+		(pts
+			(xy 66.04 134.62) (xy 66.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cba59dc-9a04-443e-a149-7345b4d8d735")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd265c1-e82c-4522-8362-960e9fb4a5b3")
+	)
+	(wire
+		(pts
+			(xy 226.06 111.76) (xy 226.06 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd379e5-6fe4-4cf6-81c9-7d4a125e330d")
+	)
+	(wire
+		(pts
+			(xy 35.56 146.05) (xy 35.56 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e57af6a-9bb0-4ff6-a436-bbfffa19138c")
+	)
+	(wire
+		(pts
+			(xy 274.32 71.12) (xy 274.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9c31de-87fe-4db9-9b02-d415bb9fd7b1")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eea2337-9253-4639-8011-52e2f0f1edd7")
+	)
+	(wire
+		(pts
+			(xy 121.92 64.77) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70854710-b656-4382-bffb-2334fc94ce08")
+	)
+	(wire
+		(pts
+			(xy 157.48 119.38) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a824d9-f9ea-46c3-95c2-27767cdc9c48")
+	)
+	(wire
+		(pts
+			(xy 111.76 134.62) (xy 111.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c5c4d9-85f4-46c5-87c2-1c9a17dc26f0")
+	)
+	(wire
+		(pts
+			(xy 172.72 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fb56e7-522c-4efb-abad-7c783a584b4f")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71877bc8-0dd2-4b9e-91cd-fa40be5e3bab")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c6cb4b-5077-42ec-91b8-54252e95dde4")
+	)
+	(wire
+		(pts
+			(xy 210.82 100.33) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740b769c-0f68-44cd-a59a-cb4fafffb133")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c58183-7b32-40af-90a2-f7c6d28ea623")
+	)
+	(wire
+		(pts
+			(xy 203.2 130.81) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76861c75-cdaa-4256-b4fa-106ac404fcd8")
+	)
+	(wire
+		(pts
+			(xy 50.8 100.33) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782ebfd0-e576-4640-9438-d6c687380ccf")
+	)
+	(wire
+		(pts
+			(xy 233.68 100.33) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798507a1-5965-43e9-b03d-7d7906adf4b4")
+	)
+	(wire
+		(pts
+			(xy 135.89 64.77) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dedfa2-4e4a-4a3a-b313-bff757594591")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 104.14 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4652f2-6f9f-47a2-a0ed-0545d4bac30c")
+	)
+	(wire
+		(pts
+			(xy 157.48 142.24) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5b6419-ebf2-498e-a1bd-5796239640d7")
+	)
+	(wire
+		(pts
+			(xy 172.72 146.05) (xy 172.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d616af0-acb8-4770-8082-d3ef32da7cb4")
+	)
+	(wire
+		(pts
+			(xy 96.52 111.76) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9adff8-8bb6-4173-82b4-1896dc4d1f0b")
+	)
+	(wire
+		(pts
+			(xy 144.78 59.69) (xy 156.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de82645-e1a7-4f95-b45d-8af39f12e109")
+	)
+	(wire
+		(pts
+			(xy 111.76 146.05) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e280f11-7d36-4da8-b791-07464c65a8ea")
+	)
+	(wire
+		(pts
+			(xy 96.52 119.38) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e85fa0b-c916-406f-a9ad-62d6f9613715")
+	)
+	(wire
+		(pts
+			(xy 35.56 130.81) (xy 50.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb65ae0-3dbe-4c5c-838f-36b1184508e3")
+	)
+	(wire
+		(pts
+			(xy 195.58 123.19) (xy 195.58 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1193ac-df44-4909-b826-b9be7c949dcf")
+	)
+	(wire
+		(pts
+			(xy 142.24 123.19) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4d5cd8-560a-4b3e-92ee-82d59f281955")
+	)
+	(wire
+		(pts
+			(xy 81.28 107.95) (xy 96.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f68c2eb-073b-4a13-b220-b3638d4be04f")
+	)
+	(wire
+		(pts
+			(xy 234.95 153.67) (xy 248.92 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e9f26d-fa7f-4b2d-9861-890157e22862")
+	)
+	(wire
+		(pts
+			(xy 81.28 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f04f9e-3179-4947-9136-8ebd6598193f")
+	)
+	(wire
+		(pts
+			(xy 149.86 74.93) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868e5ca7-7f50-4cb3-9b85-1a8a40c83733")
+	)
+	(wire
+		(pts
+			(xy 142.24 130.81) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8993c5f5-f968-43ce-a1d4-4f344053ab6f")
+	)
+	(wire
+		(pts
+			(xy 66.04 153.67) (xy 81.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a86ca29-d8a9-4fa7-a399-c4950d611d28")
+	)
+	(wire
+		(pts
+			(xy 233.68 134.62) (xy 233.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6fbf29-b3df-411d-80aa-1a8861916c47")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 104.14 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbf64fc-3fb7-42e6-b74c-2045e7a20933")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc539b5-6417-4420-abdd-e3711104d23b")
+	)
+	(wire
+		(pts
+			(xy 233.68 123.19) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0fcc0b-c9c0-41d9-bff1-d23b59caea43")
+	)
+	(wire
+		(pts
+			(xy 144.78 52.07) (xy 156.21 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4497cd-9f95-48a3-a0e3-1c2c53358a0c")
+	)
+	(wire
+		(pts
+			(xy 172.72 142.24) (xy 187.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e90a3d8-b101-4914-9b48-aebac169425d")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f980593-aa04-4381-aec4-4b15bda0b943")
+	)
+	(wire
+		(pts
+			(xy 81.28 153.67) (xy 96.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903b5bb0-271f-466c-b3c2-7471cbc4da91")
+	)
+	(wire
+		(pts
+			(xy 43.18 134.62) (xy 43.18 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912bc4c2-2c4a-46b4-b773-6a8078f42c8a")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 241.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a3f265-bde7-4b67-8f89-36e750ef53a8")
+	)
+	(wire
+		(pts
+			(xy 142.24 134.62) (xy 142.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920ec13a-d6d9-4e7d-9e04-6e9f9e1f9b69")
+	)
+	(wire
+		(pts
+			(xy 50.8 134.62) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929e5662-b8db-40b4-9dfe-5fd1c4afb16a")
+	)
+	(wire
+		(pts
+			(xy 27.94 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9388612d-c1e4-4f03-a2f5-a4e3e14dd406")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95f1e1df-40d6-4afa-a9cf-66c0eb013a1d")
+	)
+	(wire
+		(pts
+			(xy 241.3 100.33) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e2a578-910c-4f29-9c2e-be75a9bcb980")
+	)
+	(wire
+		(pts
+			(xy 248.92 119.38) (xy 270.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98924db5-338b-4ac7-9d61-14154a249b36")
+	)
+	(wire
+		(pts
+			(xy 218.44 134.62) (xy 218.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c6b79e-6ffc-4235-b6e1-50afda49f44f")
+	)
+	(wire
+		(pts
+			(xy 269.24 46.99) (xy 269.24 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dad97b-2d8f-40f9-b088-c613fd031303")
+	)
+	(wire
+		(pts
+			(xy 142.24 64.77) (xy 142.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c03cfd5-0492-44bb-ba8a-e8a80e999cc5")
+	)
+	(wire
+		(pts
+			(xy 180.34 111.76) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0ead23-6a10-4a15-9eb2-88c8fae9897e")
+	)
+	(wire
+		(pts
+			(xy 88.9 100.33) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c15884f-d48f-47a4-a0d1-78ae6de2663d")
+	)
+	(wire
+		(pts
+			(xy 248.92 100.33) (xy 248.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f38785a-7433-441e-924a-16b91ffdd652")
+	)
+	(wire
+		(pts
+			(xy 203.2 142.24) (xy 218.44 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7f6479-ca53-40a2-82c8-98a5ac617095")
+	)
+	(wire
+		(pts
+			(xy 96.52 134.62) (xy 96.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdd3922-adfe-47b6-8ec4-6f0cf0982cf4")
+	)
+	(wire
+		(pts
+			(xy 66.04 142.24) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff5ef07-4464-471b-accb-9fd6d6f7a8f7")
+	)
+	(wire
+		(pts
+			(xy 58.42 134.62) (xy 58.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01069b4-c0fc-4bfb-bcde-6ef6d3c3388b")
+	)
+	(wire
+		(pts
+			(xy 149.86 100.33) (xy 149.86 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0836fc7-ee47-489e-b275-1d92c355694c")
+	)
+	(wire
+		(pts
+			(xy 226.06 134.62) (xy 226.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c04c93-9eb8-4e46-a7b7-20b272c73c40")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 241.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a328d3f1-2e2a-4728-b940-c7c1ed3ef7bf")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.77) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a373fe05-44be-43a6-8c14-f4e886750ab4")
+	)
+	(wire
+		(pts
+			(xy 241.3 67.31) (xy 241.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c5e095-e3ac-4b6d-8986-5f1156737e8f")
+	)
+	(wire
+		(pts
+			(xy 248.92 111.76) (xy 248.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3fe23d7-39a6-42d6-8bed-0c7ccd45f18e")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ae1e31-0c52-4897-b72b-cdaf07dcdf80")
+	)
+	(wire
+		(pts
+			(xy 111.76 153.67) (xy 128.27 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ead66d-175b-4726-81d4-f9b8b0df2ae6")
+	)
+	(wire
+		(pts
+			(xy 104.14 123.19) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a581c75d-a19a-46b2-8e12-fe574227e875")
+	)
+	(wire
+		(pts
+			(xy 218.44 107.95) (xy 233.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5ad6233-d723-4479-bd5e-08bb0be7b11d")
+	)
+	(wire
+		(pts
+			(xy 35.56 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6958a30-19ed-426d-a970-cbb208ab5d76")
+	)
+	(wire
+		(pts
+			(xy 157.48 146.05) (xy 157.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72b6071-5372-4180-83fc-ace9e3890161")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7af8132-cd63-4d87-8434-cc8afbaf273a")
+	)
+	(wire
+		(pts
+			(xy 58.42 100.33) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a859c569-2038-442d-a014-61366d52684a")
+	)
+	(wire
+		(pts
+			(xy 218.44 123.19) (xy 218.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9236d0a-fe9e-4e9e-a0f2-d23dc58dd18f")
+	)
+	(wire
+		(pts
+			(xy 273.05 143.51) (xy 273.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaedf872-cbc6-407b-97a4-ae64a3fe2b67")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 248.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfba075-675a-4729-be85-d690c1170959")
+	)
+	(wire
+		(pts
+			(xy 27.94 111.76) (xy 27.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad78dc68-6317-41bf-aa1f-f3fd07ce8a1b")
+	)
+	(wire
+		(pts
+			(xy 142.24 100.33) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae591f23-e9df-48ea-9228-293f9487f8c6")
+	)
+	(wire
+		(pts
+			(xy 66.04 146.05) (xy 66.04 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed01c61-52fc-4267-b7cb-77f649af0363")
+	)
+	(wire
+		(pts
+			(xy 248.92 146.05) (xy 248.92 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00e1161-c478-4456-9248-4fbbfe482a4a")
+	)
+	(wire
+		(pts
+			(xy 96.52 123.19) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07a9c86-f5e2-49bb-b691-ab28fd01770b")
+	)
+	(wire
+		(pts
+			(xy 269.24 71.12) (xy 269.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2123f93-0dc2-4375-911b-65aed6f1339a")
+	)
+	(wire
+		(pts
+			(xy 66.04 130.81) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2333027-6485-448f-afef-e68110527bff")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.33) (xy 180.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b247950c-c831-4585-aeff-5f11663b5041")
+	)
+	(wire
+		(pts
+			(xy 195.58 134.62) (xy 195.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b6189e-f52b-4c94-9a94-b761b7d3167d")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2bba2ed-95b9-405f-a043-a32c79350011")
+	)
+	(wire
+		(pts
+			(xy 81.28 142.24) (xy 96.52 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3001f88-8569-4b79-a622-38133f22a4a6")
+	)
+	(wire
+		(pts
+			(xy 50.8 146.05) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3228d9b-8d64-4f41-b129-d4442bfd7965")
+	)
+	(wire
+		(pts
+			(xy 226.06 123.19) (xy 226.06 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40d76f5-18aa-4d0b-958c-93e6e6993aaf")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b298ca-3dad-40f6-b457-897c424dd2f7")
+	)
+	(wire
+		(pts
+			(xy 218.44 142.24) (xy 233.68 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b53925ab-4f58-4712-bc8b-c163c8ebbd93")
+	)
+	(wire
+		(pts
+			(xy 35.56 100.33) (xy 35.56 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b637563c-230e-4bf6-8e0f-20b835f7dfd7")
+	)
+	(wire
+		(pts
+			(xy 195.58 71.12) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c4bca3-cf2b-4ea8-bda3-a677fa0fa378")
+	)
+	(wire
+		(pts
+			(xy 81.28 119.38) (xy 96.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8715635-1421-408c-bed5-2518ed823a87")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e76406-8558-41bb-a623-f45e0703e579")
+	)
+	(wire
+		(pts
+			(xy 187.96 146.05) (xy 187.96 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba182873-c0fd-405b-a4af-1ce7e2eb5592")
+	)
+	(wire
+		(pts
+			(xy 88.9 111.76) (xy 88.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc898693-d817-4d05-a136-3eae62eb8618")
+	)
+	(wire
+		(pts
+			(xy 43.18 123.19) (xy 43.18 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdddf5d1-54ea-4a2e-a1e0-e4259632bb89")
+	)
+	(wire
+		(pts
+			(xy 248.92 142.24) (xy 273.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef9e00d-51e9-4662-a527-6e1db40e4712")
+	)
+	(wire
+		(pts
+			(xy 218.44 119.38) (xy 233.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c27878b3-5dee-48c2-8cfd-4c0be83a0432")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 187.96 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b1f2b3-71d0-493b-8c17-2115fbce9566")
+	)
+	(wire
+		(pts
+			(xy 119.38 100.33) (xy 119.38 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c373af7b-015e-4ddf-b4ed-485266efba66")
+	)
+	(wire
+		(pts
+			(xy 73.66 134.62) (xy 73.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e1b925-b109-444c-a36b-be033d711094")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 140.97 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8977d57-fde6-4d2b-a0ce-331d3eb30629")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4882a4-0c0c-4a64-a3fc-6f0d843d131c")
+	)
+	(wire
+		(pts
+			(xy 203.2 153.67) (xy 219.71 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca8bfb8b-f88c-463d-acf7-6d9b4c9e68e9")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadbdf49-fb89-4b4e-a549-e0fead888a29")
+	)
+	(wire
+		(pts
+			(xy 264.16 57.15) (xy 266.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc340ede-f2d8-4bcb-9a40-6cf99f6eca56")
+	)
+	(wire
+		(pts
+			(xy 273.05 71.12) (xy 273.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8edc82-dc79-484d-8a83-f59b915cd8f2")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 142.24 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdc823b-2629-4c60-8fb4-5f60baab10a8")
+	)
+	(wire
+		(pts
+			(xy 219.71 146.05) (xy 219.71 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd82e470-ca0f-4823-9e11-bec578706e77")
+	)
+	(wire
+		(pts
+			(xy 96.52 153.67) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07745fd-1dee-42e4-a210-f02c56f3ca7d")
+	)
+	(wire
+		(pts
+			(xy 73.66 111.76) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07b43a8-fdc3-4955-be5c-b6a7f036fc4f")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 226.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d198d6a9-61ab-4496-92d5-738187542393")
+	)
+	(wire
+		(pts
+			(xy 81.28 146.05) (xy 81.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cbf298-8285-4755-a313-d75888eba0f8")
+	)
+	(wire
+		(pts
+			(xy 35.56 123.19) (xy 35.56 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d5470f-315c-46d7-9e7c-35618a00d75a")
+	)
+	(wire
+		(pts
+			(xy 43.18 100.33) (xy 43.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f02ded-1f3e-46ca-8bb4-7b3f9fce24b6")
+	)
+	(wire
+		(pts
+			(xy 172.72 100.33) (xy 172.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5cfe92b-59bc-4577-9c91-e3347107265f")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 234.95 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d634121d-784c-4ccf-8973-44a0a58cda5c")
+	)
+	(wire
+		(pts
+			(xy 274.32 46.99) (xy 274.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66a29ed-3623-4586-91a1-4839da089086")
+	)
+	(wire
+		(pts
+			(xy 111.76 130.81) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e0e2f2-06ce-4bdd-801d-5b765b65ea7a")
+	)
+	(wire
+		(pts
+			(xy 187.96 153.67) (xy 203.2 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75cae9e-e0dd-4f71-b87b-de970e00f127")
+	)
+	(wire
+		(pts
+			(xy 134.62 111.76) (xy 134.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d821f40f-a40c-4324-9b43-8ab8e8fd6b48")
+	)
+	(wire
+		(pts
+			(xy 270.51 71.12) (xy 270.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bb5f34-51e3-4039-9233-6b5b4f3e5c64")
+	)
+	(wire
+		(pts
+			(xy 104.14 100.33) (xy 104.14 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cf4718-43be-4917-b2df-0cfb0d549466")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 43.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8e3102-9353-420a-9c77-df8d7f457f5a")
+	)
+	(wire
+		(pts
+			(xy 187.96 100.33) (xy 187.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafeef10-a7bf-49b6-8c06-b245e33a7ae8")
+	)
+	(wire
+		(pts
+			(xy 50.8 130.81) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf4d336-50ef-406d-9995-5215aa7f179d")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 81.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de62081e-95bf-4c40-8bc6-6e1926e04285")
+	)
+	(wire
+		(pts
+			(xy 203.2 107.95) (xy 218.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea4833a-cc16-4a3c-992a-0b8990e564eb")
+	)
+	(wire
+		(pts
+			(xy 142.24 142.24) (xy 157.48 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debd33c7-b8ed-4d4f-b721-77b315f7fac5")
+	)
+	(wire
+		(pts
+			(xy 172.72 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df52960d-729a-42ec-8342-7b748fabdc0e")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.77) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df931d94-8201-41b0-b675-0cc8516ead43")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2fdcad1-0e9f-4fe5-9b41-79cc1cde5e9c")
+	)
+	(wire
+		(pts
+			(xy 35.56 153.67) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38d71cd-3c97-420a-bd2f-de407c881fb1")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45ae1d5-03c7-4b9f-a998-9100576ac09d")
+	)
+	(wire
+		(pts
+			(xy 119.38 134.62) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e54d7e54-7226-4709-9ebb-acc8b8601d8d")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 119.38 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70117db-994c-4ff3-acd5-d822cfc86358")
+	)
+	(wire
+		(pts
+			(xy 35.56 107.95) (xy 50.8 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c5127c-4e8f-428b-87e5-ba015d0f0184")
+	)
+	(wire
+		(pts
+			(xy 127 123.19) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea28a465-e611-4a82-83ca-e945a77339e8")
+	)
+	(wire
+		(pts
+			(xy 187.96 111.76) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea50f52c-5c61-4ae3-b339-58327464f490")
+	)
+	(wire
+		(pts
+			(xy 50.8 107.95) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac4cabc-4085-4c67-a636-58ecc9a160fd")
+	)
+	(wire
+		(pts
+			(xy 241.3 123.19) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb8016d-2a68-45b7-a38b-17c487c5ac66")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edda4589-e200-4849-990c-1256d44cc974")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeaf5ca4-0ecf-48f3-899a-97fc2059fa9a")
+	)
+	(wire
+		(pts
+			(xy 248.92 123.19) (xy 248.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15980ef-6269-48f9-8edb-b40c0fad3c30")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 180.34 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d6d729-ba79-45cc-9ff9-01756103719f")
+	)
+	(wire
+		(pts
+			(xy 172.72 107.95) (xy 187.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2429d51-8d22-4d88-94a1-1609ec844ecc")
+	)
+	(wire
+		(pts
+			(xy 233.68 111.76) (xy 233.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24844fa-0a97-4272-a3c1-f84f1acdbb05")
+	)
+	(wire
+		(pts
+			(xy 35.56 134.62) (xy 35.56 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38ceffd-c3ee-481f-a0ae-0dbe95490bd8")
+	)
+	(wire
+		(pts
+			(xy 66.04 100.33) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a5a3e6-7810-428b-88f4-e0ac16e13bf8")
+	)
+	(wire
+		(pts
+			(xy 157.48 107.95) (xy 172.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46a555e-bfd3-408a-b827-20180432a657")
+	)
+	(wire
+		(pts
+			(xy 27.94 100.33) (xy 27.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47b64f1-4c81-4fdf-abaa-f58155cc90bc")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 195.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f41354-e215-4f64-8bc2-3b7224562e74")
+	)
+	(wire
+		(pts
+			(xy 35.56 119.38) (xy 50.8 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ce3d16-7cc3-4724-9860-ebb813039108")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 157.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74b5200-5076-4e0a-b7f2-d256d87b76d2")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 165.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f75bf7bb-53ad-4e71-b20e-cdd57c13fbc5")
+	)
+	(wire
+		(pts
+			(xy 119.38 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8514cd3-809e-45b5-9e1e-e6d54c8fb30b")
+	)
+	(wire
+		(pts
+			(xy 129.54 64.77) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f2c579-e786-48a6-9228-d1e938fc6599")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa649086-a15a-4ee9-bec1-0fbd87422a4e")
+	)
+	(wire
+		(pts
+			(xy 203.2 119.38) (xy 218.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb28e19e-ab42-48a3-bc7b-871ded502fe7")
+	)
+	(rectangle
+		(start 71.12 142.875)
+		(end 163.83 154.305)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 5 5 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 220a069b-849e-45a5-abf5-4de1568df4d8)
+	)
+	(rectangle
+		(start 212.09 120.65)
+		(end 236.22 129.54)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 5 5 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f6768bb-6536-44b0-a8a7-9f55b9fb2c4f)
+	)
+	(rectangle
+		(start 27.305 132.08)
+		(end 51.435 140.97)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 5 5 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 538a7645-e5a4-43be-bd40-654d247ceb99)
+	)
+	(rectangle
+		(start 130.81 59.69)
+		(end 130.81 59.69)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d6b89cd-3552-4662-801e-5bc3a8ef95de)
+	)
+	(rectangle
+		(start 211.074 97.282)
+		(end 235.204 106.172)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 5 5 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e70ca9ca-032d-47b8-ba5a-12c17691dc1e)
+	)
+	(text "Enter"
+		(exclude_from_sim no)
+		(at 223.774 125.73 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "01fd9fce-33ab-40b8-9252-f1d7137ef04b")
+	)
+	(text "? /"
+		(exclude_from_sim no)
+		(at 199.136 105.918 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "0408484a-5de5-41df-b626-cf445258faef")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 167.894 106.172 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "04f61690-bccb-40c2-b146-915316af2297")
+	)
+	(text "alt gr"
+		(exclude_from_sim no)
+		(at 168.402 150.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "07b2c181-5436-41eb-9673-c2ebae5dbd5e")
+	)
+	(text "K"
+		(exclude_from_sim no)
+		(at 152.908 129.032 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "11b6b09e-f782-43bd-a51f-4924080a4e5b")
+	)
+	(text "W"
+		(exclude_from_sim no)
+		(at 62.23 117.094 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "12caeab9-2546-4da0-8d14-e057ca703b86")
+	)
+	(text "tab"
+		(exclude_from_sim no)
+		(at 31.496 116.586 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "17c3cef1-7130-4945-bae9-0c83e5da72ed")
+	)
+	(text "Ctrl"
+		(exclude_from_sim no)
+		(at 198.882 151.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1916ad3d-b37d-41d9-98bc-1b0f7015802b")
+	)
+	(text "Home"
+		(exclude_from_sim no)
+		(at 245.11 116.586 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1e91764b-d4d5-4fbd-8c69-0b2c6bf96902")
+	)
+	(text "L"
+		(exclude_from_sim no)
+		(at 168.91 128.778 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "1ed6134c-ec44-447d-821b-240faa531dbf")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 137.668 105.918 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "273fcdfb-4193-4c87-a565-977f0bc5e523")
+	)
+	(text "Resto do sistema\n"
+		(exclude_from_sim no)
+		(at 49.784 23.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 72 72 1)
+			)
+		)
+		(uuid "2f74d85c-2471-4c3f-b50a-eabc00b6ba0e")
+	)
+	(text "up"
+		(exclude_from_sim no)
+		(at 229.87 139.192 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "321da2f6-ba41-449e-ba3e-ad13279c59e9")
+	)
+	(text "V"
+		(exclude_from_sim no)
+		(at 107.696 140.462 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "3c0cca32-ebca-4d4e-8020-c567c370d76d")
+	)
+	(text "D"
+		(exclude_from_sim no)
+		(at 76.708 128.27 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "42a99c9b-7161-44ed-8a2e-3843c1f033dc")
+	)
+	(text "alt"
+		(exclude_from_sim no)
+		(at 61.214 151.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "44e94c9d-5141-446e-b73e-79e41d888357")
+	)
+	(text "R-Shift"
+		(exclude_from_sim no)
+		(at 213.868 139.7 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "477bd635-bf77-4bfe-b203-7249bd2decf3")
+	)
+	(text "A"
+		(exclude_from_sim no)
+		(at 46.482 128.016 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4dba27af-8d6b-4230-aa1d-492e9b4f4558")
+	)
+	(text "Fn"
+		(exclude_from_sim no)
+		(at 183.642 150.876 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4df82444-6f4c-4383-b820-400b8d348edd")
+	)
+	(text "+="
+		(exclude_from_sim no)
+		(at 230.124 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4e668357-50c5-453f-ae13-a39ab0162660")
+	)
+	(text "CAPS"
+		(exclude_from_sim no)
+		(at 31.496 128.778 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4eeb68c8-13c9-4814-a58b-dc6ad02c7461")
+	)
+	(text "L-Shift"
+		(exclude_from_sim no)
+		(at 38.608 139.192 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4f673d31-13ca-4c8e-b3f2-72672bfcb9b3")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 46.736 105.156 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "4f80fbca-492c-4b69-8c97-878faeb096c0")
+	)
+	(text "<-"
+		(exclude_from_sim no)
+		(at 222.25 102.87 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "590f099c-4829-42b7-871f-af6814276c98")
+	)
+	(text "Del"
+		(exclude_from_sim no)
+		(at 244.856 105.664 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5964e0b9-92c0-4dd6-9083-498e851a8367")
+	)
+	(text "."
+		(exclude_from_sim no)
+		(at 183.896 139.446 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "59df50e7-1807-483f-bef5-1fb45cf4619e")
+	)
+	(text "]"
+		(exclude_from_sim no)
+		(at 214.884 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "5b699b42-deb2-4ccf-ae68-6364fad00201")
+	)
+	(text "B"
+		(exclude_from_sim no)
+		(at 122.428 140.208 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "627c4163-573b-4759-8d05-9a0fa5e4d55e")
+	)
+	(text "Z"
+		(exclude_from_sim no)
+		(at 62.23 139.954 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6307c9c3-1787-4710-a2d3-6a893abc7865")
+	)
+	(text "H"
+		(exclude_from_sim no)
+		(at 122.174 128.524 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "65cd36dc-bf16-44bf-a083-1ce0aa7f8a7b")
+	)
+	(text "["
+		(exclude_from_sim no)
+		(at 198.882 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "66d6389f-d60e-45bf-8eda-78cbd1669d02")
+	)
+	(text "down"
+		(exclude_from_sim no)
+		(at 228.346 151.13 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "6d54775c-6cbf-42a7-bade-e242bb1679d0")
+	)
+	(text "Q"
+		(exclude_from_sim no)
+		(at 46.736 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "70c42b52-5e23-4355-92e9-8329c567f7fd")
+	)
+	(text "Y"
+		(exclude_from_sim no)
+		(at 122.428 117.348 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "7b0f74ea-79ca-47ac-be6d-aa1938c406d1")
+	)
+	(text "left"
+		(exclude_from_sim no)
+		(at 213.36 151.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "80f27f56-61c3-4e64-8782-34e945db42ed")
+	)
+	(text "Ç"
+		(exclude_from_sim no)
+		(at 183.896 128.524 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "825df2e2-c651-4158-8a38-b45db82289ab")
+	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 183.134 106.426 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "829cca4d-3329-4dac-a887-3f55210a0a93")
+	)
+	(text "- _\n"
+		(exclude_from_sim no)
+		(at 198.882 139.446 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "87ff5a1a-14b6-4d1f-8f0d-0272d7341c1a")
+	)
+	(text ","
+		(exclude_from_sim no)
+		(at 168.656 138.684 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "88b6f71b-775a-489e-90d5-131f6f97a215")
+	)
+	(text "P"
+		(exclude_from_sim no)
+		(at 183.642 117.348 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "88f2b878-e334-48ec-9551-299f8aef938b")
+	)
+	(text "G"
+		(exclude_from_sim no)
+		(at 107.442 128.778 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8b3595f7-f441-42ab-a24f-4506c0398420")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 92.202 105.664 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8bb7ae45-536b-467d-8c5d-f4f8e01827d2")
+	)
+	(text "F"
+		(exclude_from_sim no)
+		(at 91.948 128.524 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "96c2dab4-1e9a-484c-8d51-e02fc89054e2")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 107.696 105.918 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "96d11f45-2ee2-4255-9415-082df00435b0")
+	)
+	(text "; ,"
+		(exclude_from_sim no)
+		(at 199.644 127.762 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "984e120f-cae5-4b45-b163-e833ac64fe12")
+	)
+	(text "Wds"
+		(exclude_from_sim no)
+		(at 46.482 151.384 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "9afcaad4-f812-4873-9ba2-f9a0ef1b8335")
+	)
+	(text "X"
+		(exclude_from_sim no)
+		(at 76.962 139.954 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "a3b1a0a2-76ee-4c32-80d3-792b11fb58a0")
+	)
+	(text "I"
+		(exclude_from_sim no)
+		(at 153.162 117.856 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ac72d5f1-04a3-4a77-8375-200871cf1c2e")
+	)
+	(text "R"
+		(exclude_from_sim no)
+		(at 92.202 117.348 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b30ef192-ac05-4037-af83-a41cfb331c20")
+	)
+	(text "N"
+		(exclude_from_sim no)
+		(at 137.668 140.462 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b51f4266-2c28-483c-80e5-5a72108ef54e")
+	)
+	(text "S"
+		(exclude_from_sim no)
+		(at 61.976 128.27 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "b720b60e-115d-4237-8b22-0ba317c8b63e")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 62.23 105.41 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ba0e4b6c-beca-4137-b0ed-55c55a45c313")
+	)
+	(text "C"
+		(exclude_from_sim no)
+		(at 92.202 140.208 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bbc7ff60-bdfa-447c-82b0-b394e40ed619")
+	)
+	(text "PgDn\n"
+		(exclude_from_sim no)
+		(at 245.11 139.446 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "bdc9db73-54e9-4677-903b-8bd612f90ab5")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 122.428 105.664 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "c664b503-ab0b-4c20-abe5-3ddbbdddb180")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 153.162 106.172 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "cdc47995-9817-4fc5-b308-6b8ed89ab20b")
+	)
+	(text "Esc"
+		(exclude_from_sim no)
+		(at 31.496 104.902 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "cf262e6d-295a-4430-98c3-cf6c14d6aab9")
+	)
+	(text "M"
+		(exclude_from_sim no)
+		(at 153.162 140.716 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d597c8e1-eb9d-4d25-84ee-61e459f56ef8")
+	)
+	(text "T"
+		(exclude_from_sim no)
+		(at 107.696 117.602 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d7beb652-a4ab-49cc-9327-164bb2ad233b")
+	)
+	(text "right"
+		(exclude_from_sim no)
+		(at 244.348 150.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "d8ae3e9a-eaa4-4417-9712-9b8f9a0cd9ce")
+	)
+	(text "Ctrl"
+		(exclude_from_sim no)
+		(at 30.988 150.876 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "de2eddd6-924e-4311-8054-0ce693d4b57b")
+	)
+	(text "Space"
+		(exclude_from_sim no)
+		(at 120.396 149.86 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e1c8c08b-16fd-4a10-99cf-48cf0a55dd69")
+	)
+	(text "3\n"
+		(exclude_from_sim no)
+		(at 76.962 105.41 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e261d11d-4eda-4825-9965-cacd48618bdf")
+	)
+	(text "O"
+		(exclude_from_sim no)
+		(at 167.894 117.856 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "e2a707ff-5aee-40c1-af1a-5a8a6fd68fc0")
+	)
+	(text "E"
+		(exclude_from_sim no)
+		(at 76.962 117.094 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "eaa864d6-3196-4cd3-b652-229e4dec5be2")
+	)
+	(text "PgUp"
+		(exclude_from_sim no)
+		(at 245.11 128.016 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f031ac1f-ec37-4054-8eab-a31948cddaf9")
+	)
+	(text "J"
+		(exclude_from_sim no)
+		(at 137.414 128.778 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "f487f16b-de04-4121-b46a-5a8bec236948")
+	)
+	(text "U"
+		(exclude_from_sim no)
+		(at 137.668 117.602 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "feb76ea8-e6d4-450c-81e7-a8a768f292eb")
+	)
+	(global_label "C10"
+		(shape input)
+		(at 165.1 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05324bff-db2c-4f1e-ab68-b6e8a8a09282")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.7742 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C9"
+		(shape input)
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fc08443-cc58-460f-84f8-7a415505f32b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3247 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C13"
+		(shape input)
+		(at 210.82 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30bc1fbb-7f30-4187-b823-2bacfef46a07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.4942 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C15"
+		(shape input)
+		(at 241.3 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35117467-8bc7-4ee8-bacc-59503db98b1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.9742 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "cdc_in"
+		(shape input)
+		(at 264.16 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3dc27815-6f28-4805-8186-be1cc693687b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.1272 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C7"
+		(shape input)
+		(at 119.38 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "475a861a-c1a3-4955-935e-7861d443b784")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.8447 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "b2"
+		(shape input)
+		(at 269.24 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e6df5e9-e84f-4dac-9348-34afbab0ab45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 41.6463 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C8"
+		(shape input)
+		(at 134.62 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c43dde1-52ae-491b-a675-4670aac546bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.0847 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C14"
+		(shape input)
+		(at 226.06 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5da3f147-f8c9-4fd4-828e-0903710afe5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.7342 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L4"
+		(shape input)
+		(at 273.05 143.51 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f2197b8-d000-40aa-a19d-d177ebf4ce20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.05 148.7328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L5"
+		(shape input)
+		(at 274.32 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "637f6f42-6b69-4fea-8920-61b902afaf24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.32 160.1628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "a1"
+		(shape input)
+		(at 156.21 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79264159-c07d-4484-8d9f-2522f45c7af5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5537 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C12"
+		(shape input)
+		(at 195.58 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82582981-a57d-435c-91c9-cec99b02d86a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.2542 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 73.66 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85633eed-c9fb-4a06-a5ee-86c22cd2618f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.1247 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "b1"
+		(shape input)
+		(at 271.78 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "897944e8-eff1-46c5-953a-0357431bfe45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 41.6463 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 27.94 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c701396-97e1-4bf1-ae66-5f0f51d9b69e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4047 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C11"
+		(shape input)
+		(at 180.34 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2441ee5-b68c-4e90-b693-fe1624cd7921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.0142 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "b0"
+		(shape input)
+		(at 274.32 46.99 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a95a1246-8759-463a-9974-7020e0114cc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.32 44.1863 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "a0"
+		(shape input)
+		(at 156.21 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aba3c88a-4789-426b-88f1-f7c544016cac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5537 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L2"
+		(shape input)
+		(at 270.51 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a5136f-f8d9-4711-a2fc-af05ebe000ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.51 125.8728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 88.9 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb084177-4a69-413b-a911-ce17427cc709")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3647 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L3"
+		(shape input)
+		(at 271.78 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d042a892-5ed9-4c4a-8a33-bd85ab162775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.78 137.3028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 43.18 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d180a1b2-e77e-4b98-bd6e-7861e8be1f51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.6447 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "a3"
+		(shape input)
+		(at 156.21 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2570a37-fb72-45b0-ad97-caba6f219890")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5537 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C6"
+		(shape input)
+		(at 104.14 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3e7feab-64fd-4d11-b105-b034a6357313")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.6047 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "a2"
+		(shape input)
+		(at 156.21 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e03ec64f-cea4-42b1-99d6-2c048375a847")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5537 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L1"
+		(shape input)
+		(at 269.24 109.22 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed4cead8-4962-4d4f-a487-d2fb9ad2904e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 114.4428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 58.42 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f79e7aa6-1b0f-4d3d-8718-560b6b36ea69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.8847 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02e53b4f-66b0-4b08-aca0-6347e16d0635")
+		(property "Reference" "C63"
+			(at 61.214 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 63.754 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 66.04 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f96a62e-6155-4117-ae1b-a3af84b4ef70")
+		)
+		(pin "2"
+			(uuid "0cf5e125-c6e7-422f-b5b5-9d8284e2b862")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03f95c53-f1d5-40d0-b628-3547a92dbb91")
+		(property "Reference" "C19"
+			(at 76.454 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 78.994 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 81.28 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d628b48-9d7e-49d2-bcc0-fa2b6fb1db0d")
+		)
+		(pin "2"
+			(uuid "a75d2bc6-847a-4708-996a-cde9e739864e")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "055ac69c-b20d-44d4-a007-265d25d663c2")
+		(property "Reference" "C10"
+			(at 167.894 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 170.434 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 172.72 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f73bde51-038d-4bab-89ae-4f4d6ab8f296")
+		)
+		(pin "2"
+			(uuid "5afe1012-54a2-43a8-b33a-7b357d9b5566")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05f3ce37-394b-432d-8f9b-75b9275c06a9")
+		(property "Reference" "C48"
+			(at 61.214 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 63.754 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 66.04 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301ed3fb-2b30-4d83-a485-5f5f18968b80")
+		)
+		(pin "2"
+			(uuid "b1116eb7-d9e7-4bf3-8552-c1059087b024")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0963a897-f5b2-4ee2-9ae3-5b257f0ae715")
+		(property "Reference" "C56"
+			(at 183.134 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 185.674 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 187.96 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "330df062-6269-41d3-b217-5e21bbefc50b")
+		)
+		(pin "2"
+			(uuid "321dcfd4-6b8a-4053-a790-b065e89f256a")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b1d6777-52d5-469f-b42b-5c16ab1640d1")
+		(property "Reference" "C58"
+			(at 213.614 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 216.154 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 218.44 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22490d8a-4a3e-434b-9dad-d544ce9ce9e1")
+		)
+		(pin "2"
+			(uuid "50298959-41a8-4170-8f89-c006986121c2")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d1c913d-b1c6-47bb-a6fe-380ea60af85e")
+		(property "Reference" "C3"
+			(at 61.214 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 63.754 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 66.04 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2"
+			(at 62.23 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "492eae63-614c-44a9-9c9a-b3d37a5173e7")
+		)
+		(pin "2"
+			(uuid "355332a3-7777-4605-9fd6-19c84ec53363")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "143f1cd5-ea5c-47ed-abe3-b18f2861c231")
+		(property "Reference" "C68"
+			(at 137.414 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 139.954 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 142.24 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36eb6dab-0727-4c9b-9d78-3cf2c4210e6d")
+		)
+		(pin "2"
+			(uuid "e90e2bfa-90de-40a9-97b2-bdbae78be6c9")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "189d34ff-eb0b-4e9d-b4b0-83441823e7e2")
+		(property "Reference" "C15"
+			(at 244.094 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 246.634 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 248.92 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4966a134-3d55-4877-962d-566c50240df4")
+		)
+		(pin "2"
+			(uuid "21f5a28d-811a-4feb-959c-c13976f5b312")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ccdce15-999f-4f39-96bd-301174ca6d43")
+		(property "Reference" "C27"
+			(at 198.374 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 200.914 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 203.2 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba8b7f31-f3dd-4a6b-baa5-917391bffcd4")
+		)
+		(pin "2"
+			(uuid "0826c8fe-bb48-4fc2-98cd-114a4c2b8ad0")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e42c08d-84c6-4f01-8964-03498ca1c94e")
+		(property "Reference" "C1"
+			(at 30.734 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 33.274 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 35.56 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Esq"
+			(at 31.75 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7297cc21-d842-46d4-8001-da0832c17134")
+		)
+		(pin "2"
+			(uuid "cf433047-6555-4520-8cbd-cb04fcdc7fe4")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ee77055-7e70-483e-92e4-32f43450e83c")
+		(property "Reference" "C32"
+			(at 45.974 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 48.514 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 50.8 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0cbf78-aab4-4a06-9f3b-7a227b607664")
+		)
+		(pin "2"
+			(uuid "775065d8-a80b-40aa-a04f-0a83fe6c57ef")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "239afeb9-5386-4c99-9a39-ebb1c027adbe")
+		(property "Reference" "C71"
+			(at 183.134 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 185.674 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 187.96 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1f6430e-079a-473d-aa27-75ec20dd325e")
+		)
+		(pin "2"
+			(uuid "ffe8726d-6ac3-48b4-b02b-dba76ef2b0c9")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a302e6d-5c58-4f81-8aae-c68158ee0c5d")
+		(property "Reference" "C62"
+			(at 45.974 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 48.514 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 50.8 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b6df7af-738b-4b30-aae4-450cebe2e2e3")
+		)
+		(pin "2"
+			(uuid "c492bc14-e540-4b9a-b072-42982501de2e")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f1f885f-8fb1-4cf7-a0b1-a071ed97abef")
+		(property "Reference" "C30"
+			(at 244.094 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 246.634 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 248.92 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "719729e1-26a3-49bd-aebd-a94b0dbdb1d2")
+		)
+		(pin "2"
+			(uuid "9e19a176-f928-4c18-82d1-5d4873fa5b2a")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3099c5f2-8bf0-4609-a2a2-e89424d95698")
+		(property "Reference" "C75"
+			(at 244.094 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 246.634 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 248.92 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb6f0f62-50db-4d26-a67e-d5a176fa2cbb")
+		)
+		(pin "2"
+			(uuid "10366363-655a-4a0d-a7d1-a3d82c2d41e8")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "316bf77f-9fbe-4a0d-93da-e5c60dc51f71")
+		(property "Reference" "C8"
+			(at 137.414 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 139.954 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 142.24 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac61fe6-81f9-4dce-8a60-46749ae4d9d6")
+		)
+		(pin "2"
+			(uuid "51c891f1-4e40-4ffb-9adc-97e7d605b0df")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4356e2da-9a4b-45c9-acd0-4d8d7b12b151")
+		(property "Reference" "C61"
+			(at 30.734 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 33.274 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 35.56 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ctrl"
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1791edd-4772-4668-9e91-b5eba0327014")
+		)
+		(pin "2"
+			(uuid "d7a2fea3-91f6-497c-9ab7-f4fab659b4b5")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44698d35-d2c5-4e71-aa61-4da28f967d22")
+		(property "Reference" "C20"
+			(at 91.694 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 94.234 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 96.52 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50f79fcc-dcd7-410e-b997-6765e11ed0aa")
+		)
+		(pin "2"
+			(uuid "10eded4e-baf2-404e-ae49-d70d852017e5")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48433b07-aced-4d0d-8b32-54b12e9c65eb")
+		(property "Reference" "C44"
+			(at 228.854 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 231.394 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 233.68 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22824e8b-a2dd-4313-a20d-256360ce8c15")
+		)
+		(pin "2"
+			(uuid "ede748c8-1fe2-4327-b86e-d0aacf2567e0")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "487eece5-8148-43fd-acba-adb7887646e3")
+		(property "Reference" "C51"
+			(at 106.934 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 109.474 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 111.76 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f6a8e41-e768-4ae9-9f16-76dbcb27949d")
+		)
+		(pin "2"
+			(uuid "9611a065-4a91-47eb-a929-853701013af9")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48b75731-49f4-43a3-8311-390c17180731")
+		(property "Reference" "C13"
+			(at 213.614 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 216.154 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 218.44 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f3b0013-26ca-4281-918c-a59ae0ffed46")
+		)
+		(pin "2"
+			(uuid "4feca71c-48e4-4a97-b2d4-6ac82e27d091")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f64883-f0da-434e-a083-c8c5d56d6e99")
+		(property "Reference" "C31"
+			(at 30.734 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 33.274 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 35.56 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faff2c75-81af-4da7-83d2-31aadc9824d8")
+		)
+		(pin "2"
+			(uuid "2833a369-ec17-4b6b-8b77-cb657de92608")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54db86be-42d7-4052-b927-76250cdbd54b")
+		(property "Reference" "C57"
+			(at 198.374 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 200.914 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 203.2 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4a0d5c-d9dc-4741-88f3-3b3213e24e5d")
+		)
+		(pin "2"
+			(uuid "e47830a7-6a25-4b73-ad37-162dcd993d2c")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "556f39fa-d42e-4021-b24b-8ef2c4756241")
+		(property "Reference" "C70"
+			(at 167.894 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 170.434 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 172.72 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85911d99-b0d4-420e-a287-69baf842a234")
+		)
+		(pin "2"
+			(uuid "a515b29b-300c-4d1e-ad5a-2a63e8798bd2")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a72717d-707d-48a2-972b-6c8206fb31b0")
+		(property "Reference" "C14"
+			(at 228.854 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 231.394 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 233.68 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb99c137-4047-4871-9479-438c1fe78a27")
+		)
+		(pin "2"
+			(uuid "0710bb3b-0bc3-41ae-b03e-7d009a7efe44")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f280ba6-3810-44e8-a74c-8188b48a5ebd")
+		(property "Reference" "C73"
+			(at 213.614 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 216.154 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 218.44 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3b6c87a-af71-4766-88b7-aa0e90eb4b7f")
+		)
+		(pin "2"
+			(uuid "68de1fc8-5099-48d0-8ea6-de7ccba33278")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "636a96d1-f8bf-45d1-827e-4a1393891e2a")
+		(property "Reference" "C11"
+			(at 183.134 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 185.674 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 187.96 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91989e7b-167f-48f6-bbe0-4a1625bcd728")
+		)
+		(pin "2"
+			(uuid "2e42d313-1892-40d1-b543-e93a97cba778")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "696efe9a-fe1c-4dc2-a544-7615cf203188")
+		(property "Reference" "C55"
+			(at 167.894 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 170.434 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 172.72 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6252f173-c65d-4c0e-ba37-b85c691e1281")
+		)
+		(pin "2"
+			(uuid "38878c1a-5682-475c-a65a-4a8d638c6683")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71d2a66e-da77-461e-ba42-81adee386a9f")
+		(property "Reference" "C64"
+			(at 76.454 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 78.994 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 81.28 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31740f88-5ee8-4452-8cb8-3081940bd9a2")
+		)
+		(pin "2"
+			(uuid "e1e3f4c6-d4c3-45db-a893-ecca073ebc40")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72eba45c-dfd7-4281-a3eb-5b8c2c952691")
+		(property "Reference" "C42"
+			(at 198.374 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 200.914 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 203.2 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1f7711b-31e0-48f2-93d0-33cda473d2a7")
+		)
+		(pin "2"
+			(uuid "f8b05ae9-b1bc-4dce-9448-47c38fc73b43")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75c3be70-dfbe-4ac3-94c4-22ab80c238a5")
+		(property "Reference" "C16"
+			(at 30.734 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 33.274 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 35.56 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6eceea1-1736-4eba-b5be-9d9b78b048aa")
+		)
+		(pin "2"
+			(uuid "ec0e79aa-0dfa-4d63-9019-7649fcd75be4")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76f25a68-2c9a-4611-8a7a-8dc2f99531ee")
+		(property "Reference" "C60"
+			(at 244.094 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 246.634 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 248.92 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "286a6b31-ee10-4dc2-9ea6-265e284be047")
+		)
+		(pin "2"
+			(uuid "8394a24a-4577-47fb-a7b0-7dc26910d1ec")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7731cde9-03df-4cb9-a081-35bb8a5b82c3")
+		(property "Reference" "C4"
+			(at 76.454 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 78.994 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 81.28 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed49545f-d52c-4ad1-9210-62e56ce723aa")
+		)
+		(pin "2"
+			(uuid "a22dc69a-18f8-450b-94a3-55f3e4f80b74")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bca24f0-9cd3-4882-871f-734284a7cb39")
+		(property "Reference" "C41"
+			(at 183.134 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 185.674 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 187.96 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94cac92c-7cad-4b1c-bf1b-925fc9737623")
+		)
+		(pin "2"
+			(uuid "cea00d6f-9ff5-468b-9e47-96a660574679")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "830e1f48-a044-47e3-897a-c981757aa293")
+		(property "Reference" "C33"
+			(at 61.214 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 63.754 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 66.04 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d1585d4-f7e8-43c8-a91d-8522fcaa0d67")
+		)
+		(pin "2"
+			(uuid "b4301db9-04a3-4fc9-a2a1-ae4dd82015e9")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8468dd3e-6a8f-4cb8-bb77-5ab8019d1ddd")
+		(property "Reference" "C67"
+			(at 122.174 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 124.714 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 127 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c2369b0-b7cd-486c-9d6c-83d180737b47")
+		)
+		(pin "2"
+			(uuid "e75362e4-c5b9-4be1-bd40-c4001d421651")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8741b8e0-11f5-4577-a4db-a20c3411ae8b")
+		(property "Reference" "C35"
+			(at 91.694 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 94.234 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 96.52 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c921fd9-9036-4732-a805-fd78a8fbb38d")
+		)
+		(pin "2"
+			(uuid "455de5ba-429e-4c1c-9b2a-734aef8b512f")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 245.11 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8988c70a-93f9-4e98-8e99-a58d43f0280e")
+		(property "Reference" "C45"
+			(at 244.094 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 246.634 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 248.92 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89707286-ad18-48a6-8fcd-9c32be3c86e9")
+		)
+		(pin "2"
+			(uuid "d8713cb4-557b-4669-bd00-66b9c98c660f")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c753c2b-1b73-4d8d-8a2a-9c3ab7033dfa")
+		(property "Reference" "C12"
+			(at 198.374 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 200.914 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 203.2 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "734ee401-73c1-40bf-a6e7-0b73e7d72dff")
+		)
+		(pin "2"
+			(uuid "cd55e6d3-ae39-42e7-ba4c-bccea5ba81b4")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d6b40f3-cd6e-49ab-b666-5d494c2bfd76")
+		(property "Reference" "C65"
+			(at 91.694 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 94.234 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 96.52 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "693de4bb-49ac-4f12-9bd9-e4adea0d9729")
+		)
+		(pin "2"
+			(uuid "413c30d9-b630-4888-b644-7a0618f851da")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d721695-6b56-4c3c-97c5-021764084fa6")
+		(property "Reference" "C17"
+			(at 45.974 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 48.514 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 50.8 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "152fac42-65f2-404a-97f3-8050833510bb")
+		)
+		(pin "2"
+			(uuid "1b1abbf9-ebee-4e7f-b168-32e1705cef4a")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92eb20fe-fcfe-4bd9-8134-679f4a810def")
+		(property "Reference" "C25"
+			(at 167.894 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 170.434 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 172.72 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc2c33d-c2ab-4451-a326-7f84553690fa")
+		)
+		(pin "2"
+			(uuid "8bc74f70-843f-4979-844c-17972601d1f5")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93d99848-39e8-4dcb-b9af-ddac66d1bcee")
+		(property "Reference" "C34"
+			(at 76.454 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 78.994 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 81.28 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc138541-ffc8-45c3-9bdd-ed843b50c635")
+		)
+		(pin "2"
+			(uuid "6735c0e9-d55d-4828-9d29-1bb6279cc334")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9edb9fb2-837c-449d-b7cd-4cee301bd3e3")
+		(property "Reference" "C40"
+			(at 167.894 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 170.434 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 172.72 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39522117-1e4c-4a59-bb69-3d13fea7262a")
+		)
+		(pin "2"
+			(uuid "e84f30cc-7180-4ce3-98f5-1732a91afa93")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fd5ee3c-0724-416b-a9a2-ba70269c0125")
+		(property "Reference" "C5"
+			(at 91.694 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 94.234 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 96.52 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b475ef5-412c-4f0b-bf4d-6149b8cda690")
+		)
+		(pin "2"
+			(uuid "2cc18e70-f15e-4c70-a72f-f7085721d4b5")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a032d826-6fdd-45e6-9ffa-626045ba09cf")
+		(property "Reference" "C22"
+			(at 122.174 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 124.714 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 127 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39bdedc5-f6b8-47c5-aa85-bf933e1f6d4d")
+		)
+		(pin "2"
+			(uuid "b3f839ee-0f14-4e87-81d4-b4d6153a65f3")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 77.47 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a221e059-92ed-4e84-a0af-9dbcfbe0687a")
+		(property "Reference" "C49"
+			(at 76.454 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 78.994 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 81.28 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1718ddfe-71cc-47ae-9804-7d247e7f19ac")
+		)
+		(pin "2"
+			(uuid "ab99b17c-1d51-47e5-85de-84f5dc98b8a5")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6ddb667-cdc8-4e91-96a0-18554cfb593c")
+		(property "Reference" "C54"
+			(at 152.654 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 155.194 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 157.48 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6df6659-35e5-4623-b781-e607206fd035")
+		)
+		(pin "2"
+			(uuid "fae081fc-4824-418b-ad5f-62fa72f18c6a")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aec6254b-86c3-4010-8a29-157d129163a9")
+		(property "Reference" "C7"
+			(at 122.174 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 124.714 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 127 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4508dc-0c99-441e-a6ea-cb882f329524")
+		)
+		(pin "2"
+			(uuid "c1badefd-9066-4efb-b5f1-7372fa7217b7")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b14f3998-adb1-47b3-8240-8e90d6f7f8b3")
+		(property "Reference" "C53"
+			(at 137.414 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 139.954 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 142.24 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8339c666-36ed-4358-ba5a-e5dfc22da918")
+		)
+		(pin "2"
+			(uuid "972ada11-8986-4b77-89a0-7dbd24a76a85")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1eda22e-9522-49a8-af15-7d1bb9c65a8f")
+		(property "Reference" "C28"
+			(at 213.614 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 216.154 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 218.44 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a49e836c-7f62-4c9f-8624-15a8497891e5")
+		)
+		(pin "2"
+			(uuid "f2a60eac-ecab-42ba-8b34-64c2d1cbbb38")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7a7675b-21ef-459c-9e6a-0246ae8ddd5d")
+		(property "Reference" "C74"
+			(at 228.854 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 231.394 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 233.68 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0caaa115-6792-4c84-a04a-e2a913148e71")
+		)
+		(pin "2"
+			(uuid "16f4fe00-bfbe-417c-b333-f9cb8a811f55")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9dad56a-e64c-4f11-bf40-1a6c4b52544d")
+		(property "Reference" "C46"
+			(at 30.734 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 33.274 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 35.56 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef06317-872c-4cfe-8f77-68f67f541b28")
+		)
+		(pin "2"
+			(uuid "e7328e09-02f2-4d4b-b94b-ebaf2a0f445b")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be19fa1d-8fc4-4832-80fa-1652a84b04f2")
+		(property "Reference" "C66"
+			(at 106.934 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 109.474 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 111.76 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a7b6a45-e26b-40ed-84c8-e35dd5caf5c9")
+		)
+		(pin "2"
+			(uuid "6a8889f6-80e2-4f5a-a24f-fc9b88e2e929")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c25d8584-be93-45ce-8533-ca580c3643b1")
+		(property "Reference" "C52"
+			(at 122.174 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 124.714 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 127 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57be2bd2-20a9-4731-9288-4259f9ff7d6c")
+		)
+		(pin "2"
+			(uuid "ca9dda91-2696-4736-862f-029e3c3f9c0a")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c763f888-04ed-4b7f-b58c-9b377e8fe0ad")
+		(property "Reference" "C37"
+			(at 122.174 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 124.714 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 127 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28450e3d-25c0-4b9a-aeaa-f6e4e7400751")
+		)
+		(pin "2"
+			(uuid "a0d71204-cc44-46b4-b459-4f69747f43ea")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.15 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb642b69-9b34-41a2-81d9-7fff4b274a9d")
+		(property "Reference" "C26"
+			(at 183.134 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 185.674 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 187.96 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ada8d8d-48d9-4112-b393-899f954fcde7")
+		)
+		(pin "2"
+			(uuid "66c8cc33-a73f-48fa-b6a8-634d96c7e392")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdc409ee-69b0-4519-89df-6860e69f7925")
+		(property "Reference" "C38"
+			(at 137.414 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 139.954 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 142.24 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15983c97-06e6-45a4-84fe-195425f7d67d")
+		)
+		(pin "2"
+			(uuid "136f2f37-bd2e-4037-bb51-fec88feb7177")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9347af-d71f-4237-867f-ee515cd2ca07")
+		(property "Reference" "C50"
+			(at 91.694 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 94.234 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 96.52 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d062962c-fa59-47d8-9c8b-ff33158130dd")
+		)
+		(pin "2"
+			(uuid "3471e394-8482-48b5-aaf8-3959406624bf")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 199.39 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceff91b1-2914-40ac-810b-5737da4bbcf9")
+		(property "Reference" "C72"
+			(at 198.374 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 200.914 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 203.2 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbfe637c-0a2b-4e9e-8979-5555b767d692")
+		)
+		(pin "2"
+			(uuid "1bdf7380-3725-4409-8a18-68b78f09cc96")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1a2b8a3-4f73-46f6-9fe2-64671e2a8e05")
+		(property "Reference" "C18"
+			(at 61.214 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 63.754 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 66.04 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84a4788d-0d93-4288-a4de-2e3a1b71a623")
+		)
+		(pin "2"
+			(uuid "3def7d3a-9aea-49d8-ab98-fe15deeb1b89")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2a3eac5-66ad-4c29-bff4-68153fdd3fcf")
+		(property "Reference" "C9"
+			(at 152.654 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 155.194 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 157.48 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "667c5cf6-e1b7-4187-8ef7-f70a5470747c")
+		)
+		(pin "2"
+			(uuid "91c028c6-77db-440a-96b2-08aa52736761")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da550144-ab45-40f7-9179-4bb64f8957ab")
+		(property "Reference" "C43"
+			(at 213.614 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 216.154 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 218.44 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a8df6c7-6b88-4b44-95ea-b0855cfec7c5")
+		)
+		(pin "2"
+			(uuid "8749383f-7c9d-4794-89b1-eb7bfb2e856d")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dff2a401-04c7-4757-ab99-98c67660c8e1")
+		(property "Reference" "C59"
+			(at 228.854 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 231.394 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 233.68 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6cf8918-0d66-4944-aff3-4b7b50f65323")
+		)
+		(pin "2"
+			(uuid "b132197b-c2fd-4dfc-b7db-e4642405c2b3")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e773142b-b018-466a-87b0-8cd510db4aa8")
+		(property "Reference" "C69"
+			(at 152.654 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 155.194 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 157.48 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03458f14-04cf-4272-82a5-222aec1c2c12")
+		)
+		(pin "2"
+			(uuid "894824a0-5d8c-472a-a279-8cd784fc5c9d")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec218ada-b3f9-40bf-b8c3-853ddac62eb8")
+		(property "Reference" "C21"
+			(at 106.934 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 109.474 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 111.76 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7da6503f-550d-4f27-aaa6-935cd895c329")
+		)
+		(pin "2"
+			(uuid "e17d000f-8bf3-495c-a931-133aa0a8c223")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 138.43 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef14b52f-20c4-4ab4-88eb-beadab3c99c2")
+		(property "Reference" "C23"
+			(at 137.414 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 139.954 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 142.24 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 138.43 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a4477b7-9a7c-4b7f-97f2-e2269b77f364")
+		)
+		(pin "2"
+			(uuid "00d1a7d0-f92f-46f2-9379-8da425ae2c13")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef75a69e-97b2-486a-a925-a341977b0afc")
+		(property "Reference" "C2"
+			(at 45.974 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 48.514 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 50.8 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1"
+			(at 46.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9846ce6-3bce-4743-8003-5176aad7fe97")
+		)
+		(pin "2"
+			(uuid "5c506c9b-5d29-47a6-b9a8-86f4b076e435")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f086c297-c080-4034-9304-6bf927e70834")
+		(property "Reference" "C6"
+			(at 106.934 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 109.474 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 111.76 99.3648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd8785af-2437-4030-bbfe-f4519198a181")
+		)
+		(pin "2"
+			(uuid "a00988da-aa71-4d34-ba92-01995b6b486e")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ff6df8-9288-4d7b-8c7c-6260c4ad9822")
+		(property "Reference" "C47"
+			(at 45.974 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 48.514 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 50.8 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c23eda-ed69-49f8-95b8-1a06f7b36255")
+		)
+		(pin "2"
+			(uuid "84191ce5-c693-45ea-8d76-7a1f2ae7ba91")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 229.87 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5be721e-3101-481b-b596-d6d78c2ad26d")
+		(property "Reference" "C29"
+			(at 228.854 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 231.394 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 233.68 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 229.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16e6a33b-edff-47b9-b7b7-75b02400d9ad")
+		)
+		(pin "2"
+			(uuid "8ff346ec-203d-4233-89e4-ab70c211d508")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb0a1e21-978e-4559-8ebb-d200e125ba7b")
+		(property "Reference" "C36"
+			(at 106.934 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 109.474 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 111.76 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7123aff-0402-4ae4-a41b-cad69cc2f3e9")
+		)
+		(pin "2"
+			(uuid "cfa8af94-009c-4949-a250-351b2af4f989")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbd61795-06cf-4b11-b62f-e8b19338ffd2")
+		(property "Reference" "C24"
+			(at 152.654 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 155.194 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 157.48 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56dc440e-cbe9-4f58-97ac-fceb2448e8dd")
+		)
+		(pin "2"
+			(uuid "33e9d1ae-ab0d-4971-8baa-1db54ef26c89")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdb34906-7899-430d-a5ff-2f590a865efe")
+		(property "Reference" "C39"
+			(at 152.654 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "C"
+			(at 155.194 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom_stuff:Sensor_v2"
+			(at 157.48 122.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36d78b87-750b-48a4-b01a-84490f1061da")
+		)
+		(pin "2"
+			(uuid "2202be15-4c3c-4caa-9798-db1ae67cf402")
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.954 53.34)
+		(size 8.89 17.78)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08119915-8897-4fd5-962a-6d720a7f8ccb")
+		(property "Sheetname" "Mux_linhas"
+			(at 272.542 53.848 90)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Sheetfile" "mux_dir.kicad_sch"
+			(at 276.86 74.422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.494 14.986)
+		(size 68.834 17.018)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e5162d12-698c-437e-86fa-cacc13223ffb")
+		(property "Sheetname" "resto do circuito"
+			(at 15.494 14.2744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "resto_sch.kicad_sch"
+			(at 15.494 32.5886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 47.625)
+		(size 24.13 17.145)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fb01f684-c341-4da1-8e8c-336f358a4da4")
+		(property "Sheetname" "Mux_colunas"
+			(at 124.714 57.404 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mux_c.kicad_sch"
+			(at 119.888 44.958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "conjunto_teclado"
+				(path "/f0c9839d-12cf-499f-b4bc-14bb3c4e11dd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
